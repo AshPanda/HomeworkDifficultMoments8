@@ -6,7 +6,7 @@ TEST(TestCaseName, TestName) {
   EXPECT_EQ(1, 1);
   EXPECT_TRUE(true);
 }
-class FooTest : public ::testing::Test {
+/*class FooTest : public ::testing::Test {
 protected:
 	FooTest() {	}
 
@@ -17,7 +17,7 @@ protected:
 
 	void TearDown() override {	}
 
-};
+};*/
 template <typename T>
 T min_el(vector<T> v) {
 	return *min_element(begin(v), end(v));
